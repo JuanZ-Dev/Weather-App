@@ -12,14 +12,26 @@ Prueba la aplicación:
 ### 📝 Descripción
 Esta es un aplicación en la que se puede ver el clima de todas la ciudades que existen en cada país del mundo. Para poder visualizar los diferentes climas se tiene que realizar un solicitud a la API de OpenWeatherMap, que es la que se está utilzando.
 
-La aplicación cuenta con una entrada de texto para que el usuario ingrese la ciudad de la cual quiere ver el clima, luego podrá seleccionar el botón con el icono de lupa para enviar la solicitud a la API y proceder con la busqueda. La respuesta recibida de la API se mostrara debajo del campo de texto, en la cual el usuario podrá visualizar diversos datos referidos al clima de la ciudad solicitada (nombre de la ciudad, temperatura, condición climática, porcentaje de humedad y la velocidad del viento), a parte de estos datos se muestra la hora de la ciudad y una imagen que hace referencia a la condición climática.
+La aplicación cuenta con una entrada de texto para que el usuario ingrese la ciudad de la cual quiere ver el clima, luego podrá seleccionar el botón con el icono de lupa para enviar la solicitud a la API y proceder con la busqueda. La respuesta recibida de la API se mostrará debajo del campo de texto, en la cual el usuario podrá visualizar diversos datos referidos al clima de la ciudad solicitada (nombre de la ciudad, temperatura, condición climática, porcentaje de humedad y la velocidad del viento), a parte de estos datos se muestra la hora de la ciudad y una imagen que hace referencia a la condición climática.
+
+### ⚙ Funciones
+✔️ Conectarse con la API de OpenWeatherMap mediante una api key.
+✔️ Almacenar la última ciudad solicitada en el LocalStorage.
+✔️ Detectar si el usuario no ha ingresado nada en el campo de texto.
+✔️ Calcular la hora de la ciudad solicitada haciendo uso del formato UTC.
+✔️ Colocar animaciones haciendo uso de la libreria Lottie (se muestra una animación 
+    diferente de acuerdo a la condición climática de la ciudad).
+✔️ Detección del error 404, mostrando una imagen de error y un mensaje.
+✔️ Cambio de color del contenedor del clima dependiendo si es de día o de noche en la ciudad solicitada.
+✔️ Uso de keyframes para animar la respuesta de la API.
+✔️ Modo responsivo para los diferentes dispositivos móviles.
 
 ### 👨‍💻 Autor
 <div>
   <a href="https://github.com/JuanZ-Dev" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
   </a><br/>
-  <a href="https://www.linkedin.com/in/juan-del-jes%C3%BAs-zapata-durand-2a9944270/" target="_blank">
+  <a href="https://www.linkedin.com/in/juan-zapata-durand/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a><br/>
   <a href="https://www.instagram.com/juanz_98/" target="_blank">
