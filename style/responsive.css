@@ -54,6 +54,13 @@
   .not-found img {
     width: 90%;
   }
+
+  .social-media {
+    flex-direction: row;
+    bottom: 15px;
+    right: 28px;
+    transition: 0.8s;
+  }
 }
 
 @media (max-height: 660px) {

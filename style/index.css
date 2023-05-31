@@ -212,3 +212,41 @@ body {
     opacity: 1;
   }
 }
+
+/* FOOTER */
+.social-media {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  gap: 18px;
+  right: 15px;
+  bottom: 30px;
+  transition: 0.8s;
+}
+
+.social-media a {
+  color: #fff;
+  font-size: 24px;
+  transition: transform 0.2s ease-in;
+}
+
+.social-media a:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 0.2px #fff);
+}
+
+.social-media a:hover .fa-github {
+  background: linear-gradient(to bottom, #8f2597, #d83ee3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.social-media a:hover .fa-linkedin {
+  color: #0a66c2;
+}
+
+.social-media a:hover .fa-instagram {
+  background: linear-gradient(to bottom, #7e3baf, #f30916, #f9cc01);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
