@@ -1,5 +1,4 @@
 # ⛅ Weather app
-Prueba la aplicación: 
 
 [![Weather app image](https://raw.githubusercontent.com/JuanZ-Dev/Weather-App/main/images/weatherApp.png "Weather app image")](https://raw.githubusercontent.com/JuanZ-Dev/Weather-App/main/images/weatherApp.png "Weather app image")
 
