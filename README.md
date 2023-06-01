@@ -1,5 +1,4 @@
 # ⛅ Weather app
-Prueba la aplicación: 
 
 [![Weather app image](https://raw.githubusercontent.com/JuanZ-Dev/Weather-App/main/images/weatherApp.png "Weather app image")](https://raw.githubusercontent.com/JuanZ-Dev/Weather-App/main/images/weatherApp.png "Weather app image")
 
@@ -13,6 +12,10 @@ Prueba la aplicación:
 Esta es un aplicación en la que se puede ver el clima de todas la ciudades que existen en cada país del mundo. Para poder visualizar los diferentes climas se tiene que realizar un solicitud a la API de OpenWeatherMap, que es la que se está utilzando.
 
 La aplicación cuenta con una entrada de texto para que el usuario ingrese la ciudad de la cual quiere ver el clima, luego podrá seleccionar el botón con el icono de lupa para enviar la solicitud a la API y proceder con la busqueda. La respuesta recibida de la API se mostrará debajo del campo de texto, en la cual el usuario podrá visualizar diversos datos referidos al clima de la ciudad solicitada (nombre de la ciudad, temperatura, condición climática, porcentaje de humedad y la velocidad del viento), a parte de estos datos se muestra la hora de la ciudad y una imagen que hace referencia a la condición climática.
+
+### 🤔 ¿Que necesitas?
+- 🔹 Necesitas tener una api key de OpenWeatherMap. Para esto debes crear una cuenta en la pagina de [OpenWeather](https://openweathermap.org/ "OpenWeather"), luego debes dirigirte a [API keys](https://openweathermap.org/ "OpenWeather") y verás que ya se ha generado.
+- 🔹 Reemplazar tu **api key** por el mensaje **"Your api key"** en el archivo weather.js, el cual se encuentra dentro de la carpeta js.
 
 ### ⚙ Funciones
 - ✔️ Conectarse con la API de OpenWeatherMap mediante una api key.
