@@ -1,6 +1,6 @@
 # ⛅ Weather app
 
-[![Weather app image](https://raw.githubusercontent.com/JuanZ-Dev/Weather-App/main/images/weatherApp.png "Weather app image")](https://raw.githubusercontent.com/JuanZ-Dev/Weather-App/main/images/weatherApp.png)
+[![](https://raw.githubusercontent.com/JuanZ-Dev/Weather-App/main/images/weatherApp.png)](https://raw.githubusercontent.com/JuanZ-Dev/Weather-App/main/images/weatherApp.png)
 
 <div align="center" dir="auto">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
